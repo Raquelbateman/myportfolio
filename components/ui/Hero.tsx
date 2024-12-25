@@ -1,7 +1,7 @@
 import React from "react";
 import { Spotlight } from "./Spotlight";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <>
       <div>
