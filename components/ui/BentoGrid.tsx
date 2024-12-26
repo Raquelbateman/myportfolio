@@ -7,7 +7,7 @@ import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "data/confetti.json";
 import MagicButton from "./MagicButton";
-import {IoCopyOutline} from "react-icons/io5";
+import { IoCopyOutline } from "react-icons/io5";
 
 
 export const BentoGrid = ({
@@ -118,28 +118,37 @@ export const BentoGridItem = ({
             )}
 
 {id === 3 && (
-    <div className="flex flex-wrap justify-center items-center gap-4 p-6 w-full">
-        <div className="grid grid-cols-2 gap-4">
-            <div className="flex flex-col gap-4">
-                {['JavaScript', 'HTML', 'CSS'].map((item) => (
-                    <span
-                        key={item}
-                        className="py-2 px-4 bg-[#161a31] text-white rounded-full text-xs lg:text-sm font-medium hover:bg-opacity-80 transition-colors text-center"
-                    >
-                        {item}
-                    </span>
-                ))}
-            </div>
-            <div className="flex flex-col gap-4">
-                {['PHP', 'Java', 'MySQL'].map((item) => (
-                    <span
-                        key={item}
-                        className="py-2 px-4 bg-[#161a31] text-white rounded-full text-xs lg:text-sm font-medium hover:bg-opacity-80 transition-colors text-center"
-                    >
-                        {item}
-                    </span>
-                ))}
-            </div>
+    <div className="flex gap-1 lg:gap-5 w-fit relative -right-3 lg:right-2">
+        <div className="flex flex-col relative gap-3 lg:gap-8">
+            {["React.js", "Next.js", "TypeScript"].map((item) => (
+                <span
+                    key={item}
+                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-xl text-center bg-[#10132e]"
+                >
+                    {item}
+                </span>
+            ))}
+        </div>
+        <div className="flex flex-col relative gap-3 lg:gap-8">
+            {["JavaScript", "HTML", "CSS"].map((item) => (
+                <span
+                    key={item}
+                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-xl text-center bg-[#10132e]"
+                >
+                    {item}
+                </span>
+            ))}
+        </div>
+        <span className="py-4 px-3 rounded-xl bg-[#10132e]" />
+        <div className="flex flex-col relative gap-3 lg:gap-8">
+            {["C#", "Azure", "MySQL"].map((item) => (
+                <span
+                    key={item}
+                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-xl text-center bg-[#10132e]"
+                >
+                    {item}
+                </span>
+            ))}
         </div>
     </div>
 )}
@@ -159,11 +168,11 @@ export const BentoGridItem = ({
                         />
                     </div>
                     <MagicButton
-                    title={copied ? 'Email copied' : 'Copy my Email'}
-                    icon={ <IoCopyOutline/>}
-                    position="left"
-                    otherClasses="!bg-[#161a31"
-                    handleClick={handleCopy}
+                        title={copied ? 'Email copied' : 'Copy my Email'}
+                        icon={<IoCopyOutline />}
+                        position="left"
+                        otherClasses="!bg-[#161a31"
+                        handleClick={handleCopy}
                     />
                 </div>
             )}
