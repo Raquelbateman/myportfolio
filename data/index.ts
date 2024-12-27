@@ -9,8 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    description: "Hi, I'm a fullstack developer with a passion for creating beautiful, user-friendly websites. I find joy in designing interfaces that make technology more accessible and intuitive for everyone. To me, coding isn't just work – it's a relaxing escape where I can turn ideas into reality. I believe great design paired with solid functionality creates memorable digital experiences. I look forward to helping bring your vision to life through clean code and thoughtful design solutions.",
     title: "About Me",
+    description: "Hi, I'm a fullstack developer with a passion for creating beautiful, user-friendly websites. I find joy in designing interfaces that make technology more accessible and intuitive for everyone. To me, coding isn't just work – it's a relaxing escape where I can turn ideas into reality. I believe great design paired with solid functionality creates memorable digital experiences. I look forward to helping bring your vision to life through clean code and thoughtful design solutions.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-[21rem] h-[34rem] object-cover rounded-full absolute bottom-10 right-12 -translate-x-1/2w-96 h-96 object-cover rounded-2xl border-4 border-white ring-4 ring-offset-4", // Modified for circle and centering
     titleClassName: "flex flex-col",
@@ -33,7 +33,7 @@ export const gridItems = [
 },
 {
   id: 3,
-  title: "Skills & Technologies",
+  title: "Tech Stack",
   description: "",
   className: "lg:col-span-2 md:col-span-3 md:row-span-2",
   imgClassName: "",
