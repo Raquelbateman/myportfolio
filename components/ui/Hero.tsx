@@ -37,7 +37,7 @@ export const Hero = () => {
               words="Design-focused fullstack developer from the San Joaquin Valley, turning complex ideas into beautiful, intuitive applications."
             />
            
-            <a href="#about"><MagicButton icon={<GoProjectRoadmap />} title="My Projects" position="right" otherClasses={""} /></a>
+            <a href="#projects"><MagicButton icon={<GoProjectRoadmap />} title="My Projects" position="right" otherClasses={""} /></a>
 
 
           </div>
