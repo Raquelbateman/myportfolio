@@ -24,7 +24,7 @@ export const Hero = () => {
             fill="purple"
           />
         </div>
-        
+
         {/* Grid background container */}
         <div className="absolute inset-0 h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.3] bg-grid-black/[0.6] flex items-center justify-center">
           {/* Radial gradient overlay */}
@@ -32,11 +32,12 @@ export const Hero = () => {
         </div>
         <div className="flex justify-center relative my-20 z-10">
           <div className="mx-w-[89vw] md:max-w-2xl lg:max-w[60vw] flex flex-col items-center ">
-              <TextGenerateEffect
-              className="text-center text-[40px] md:text-5xl lg:text-6xl"
-              words="Alicia Spruell"/>
-              <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I'm a design-focused fullstack developer from the San Joaquin Valley, turning complex ideas into beautiful, intuitive applications.</p>
-              <a href="#about"><MagicButton icon={<GoProjectRoadmap />} title="My Projects" position="right" otherClasses={""}/></a>
+            <TextGenerateEffect
+              className="text-center text-[20px] md:text-5xl lg:text-6xl mt-[-150px]"
+              words="Design-focused fullstack developer from the San Joaquin Valley, turning complex ideas into beautiful, intuitive applications."
+            />
+           
+            <a href="#about"><MagicButton icon={<GoProjectRoadmap />} title="My Projects" position="right" otherClasses={""} /></a>
 
 
           </div>
