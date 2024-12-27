@@ -43,8 +43,8 @@ export const gridItems = [
 },
 {
   id: 4,
-  title: "Hello World",
-  description: "to infinity...",
+  title: "",
+  description: "function createMagic() {",
   className: "lg:col-span-3 md:col-span-3 ",
   imgClassName: "",
   titleClassName: "justify-start",

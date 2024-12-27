@@ -211,9 +211,10 @@ export const BentoGridItem = ({
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5"
               >
                 <div className="sm:col-span-2 lg:col-span-6 flex flex-col items-center mb-5 lg:mb-0 max-w-3xl">
+                <p className="text-center text-8xl mt-5">Hello World</p>
                   <div className="flex flex-row gap-4 mt-6">
-                    {" "}
-                    {/* Changed flex-col to flex-row */}
+                    
+                   
                     <a
                       href="https://github.com/Raquelbateman"
                       target="_blank"
