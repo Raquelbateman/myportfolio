@@ -43,7 +43,7 @@ export const gridItems = [
 },
 {
   id: 4,
-  title: "About Me",
+  title: "HELLO WORLD",
   description: "",
   className: "lg:col-span-3 md:col-span-3 ",
   imgClassName: "",
