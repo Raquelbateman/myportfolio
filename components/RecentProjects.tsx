@@ -5,10 +5,10 @@ const RecentProjects = () => {
   return (
     <>
       <div className="py-20 max-w-7xl mx-auto px-4">
-        <h1 className="heading text-center mb-8">
-          A selection of {""}
-          <span className="text-purple"> my recent projects</span>
-        </h1>
+        <p className="heading text-center mb-8 text-5xl">
+          Recent {""}
+          <span id="projects" className="text-purple">Projects</span>
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {projects.map(({ id, title, des, img, iconLists, link }) => (
