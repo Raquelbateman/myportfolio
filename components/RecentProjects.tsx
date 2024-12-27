@@ -7,7 +7,7 @@ const RecentProjects = () => {
       <div className="py-20 max-w-7xl mx-auto px-4">
         <h1 className="heading text-center mb-8">
           A selection of {""}
-          <span id="#projects" className="text-purple"> my recent projects</span>
+          <span id="projects" className="text-purple"> my recent projects</span>
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

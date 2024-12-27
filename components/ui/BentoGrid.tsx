@@ -84,13 +84,13 @@ export const BentoGridItem = ({
       {link ? (
         <a href="{link}" target="_blank" rel="noopener noreferrer">
           <div className="w-full h-full absolute">
-            {img && (
+            {/* {img && (
               <img
                 src={"/me204.jpg"}
                 alt={img}
                 className={cn(imgClassName, " object-center opacity-15")}
               />
-            )}
+            )} */}
           </div>
 
           <div
@@ -152,7 +152,7 @@ export const BentoGridItem = ({
           >
             {id === 2 ? (
               <>
-                <div className="font-sans font-bold text-lg text-neutral-200 lg:text-3xl max-w-96 z-10">
+                <div id="experience"className="font-sans font-bold text-lg text-neutral-200 lg:text-3xl max-w-96 z-10">
                   {title}
                 </div>
                 <div className="font-sans font-extralight text-neutral-200 text-sm md:text-xs lg:text-base z-10">
@@ -208,7 +208,6 @@ export const BentoGridItem = ({
 
             {id === 4 && (
               <div
-                id="#contact"
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5"
               >
                 <div className="sm:col-span-2 lg:col-span-6 flex flex-col items-center mb-5 lg:mb-0 max-w-3xl">
@@ -257,7 +256,7 @@ export const BentoGridItem = ({
             )}
 
             {id === 5 && (
-              <div className=" relative flex flex-col">
+              <div id="contact" className=" relative flex flex-col">
                 <div className="absolute -bottom-5 right-0"></div>
                 <MagicButton
                   title={copied ? "Email copied" : "Copy my Email"}

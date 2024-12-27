@@ -12,9 +12,14 @@ export default function Home() {
     <div className="max-w-7xl w-full ">
       <h1 className="text-white-200"></h1>
       <FloatingNav navItems={navItems}/>
-      <Hero/>
+  
+          <Hero/>
+          
+        
       <Grid/>
-      <RecentProjects/>
+      <div id="projects">
+      <RecentProjects />
+      </div>
     </div>
    </main>
 
